@@ -2,8 +2,8 @@
 # dimension             -No. of Decision Variables
 # Offlinedata           -offline data
 # Eva_num               -Number of evaluations
-# lb                    -Lower bound of decision variables
-# ub                    -Upper bound of decision variables
+# lower_bound           -Lower bound of decision variables
+# upper_bound           -Upper bound of decision variables
 #
 # Output:
 # Execution Time
@@ -338,7 +338,7 @@ if __name__ == '__main__':
                 fun = cp.rastrigin02
             for xxx in range(1):
 
-                dataLibrary = latin(N=11*dimension, D=dimension, lb=-5.12, ub=5.12)
+                dataLibrary = latin(N=11*dimension, D=dimension, lower_bound=-5.12, upper_bound=5.12)
                 Eva_num = 10000
                 tt0 = time.time()
                 max_iter = Eva_num
