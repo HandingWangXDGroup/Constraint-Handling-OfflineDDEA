@@ -4,6 +4,7 @@
 # Eva_num               -Number of evaluations
 # lb                    -Lower bound of decision variables
 # ub                    -Upper bound of decision variables
+# funname               -Test function
 #
 # Output:
 # Execution Time
